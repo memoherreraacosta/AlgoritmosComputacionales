@@ -17,4 +17,5 @@ def bubbleSort(lista):
     return lista
 
 lista = [1,2,4,3.5,2,7,43,-12,0]
-print(bubbleSort(lista))
+print("Lista sin ordenar: "+lista)
+print("Lista ordenada: "+bubbleSort(lista))
