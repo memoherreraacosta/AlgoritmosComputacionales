@@ -11,7 +11,7 @@ Insertion Sort sorting algorithm
 """
 def insertionSort(lista):
     for i in range(1, len(lista)):
-        j = i-1
+        j = i-1 
         siguienteElemento = lista[i]
         
         while (lista[j] > siguienteElemento) and (j >= 0):
